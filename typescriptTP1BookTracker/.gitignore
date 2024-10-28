@@ -1,0 +1,17 @@
+# Compiled JavaScript files
+dist/
+*.js
+!tailwind.config.js
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store

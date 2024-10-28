@@ -1,0 +1,36 @@
+[
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "pages": 214,
+    "status": "Read",
+    "price": 10.99,
+    "pagesRead": 214,
+    "format": "Print",
+    "suggestedBy": "John",
+    "finished": true
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "pages": 281,
+    "status": "Currently reading",
+    "price": 8.99,
+    "pagesRead": 100,
+    "format": "Ebook",
+    "suggestedBy": "Sarah",
+    "finished": false
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "pages": 328,
+    "status": "Want to read",
+    "price": 7.50,
+    "pagesRead": 0,
+    "format": "PDF",
+    "suggestedBy": "Alex",
+    "finished": false
+  }
+]
+

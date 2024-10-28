@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es6",
+    "lib": ["es2020", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "../../public/js",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "baseUrl": "..",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["./**/*", "../models/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

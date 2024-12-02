@@ -1,0 +1,23 @@
+<div class="books-container">
+  <h2>📚 My Reading List</h2>
+
+  @if (books.length > 0) {
+    <ul class="books-list">
+      @for (book of books; track book.name) {
+        <li class="book-item">
+          <input
+            type="checkbox"
+            [checked]="book.isRead"
+            disabled
+            [title]="book.isRead ? 'Already read' : 'Not read yet'"
+          >
+          <span class="book-title">{{ book.name }}</span>
+        </li>
+      }
+    </ul>
+  } @else {
+    <p class="empty-message">
+      📖 Your reading list is empty. Time to add some books!
+    </p>
+  }
+</div>

@@ -8,10 +8,12 @@
           <input
             type="checkbox"
             [checked]="book.isRead"
-            disabled
-            [title]="book.isRead ? 'Already read' : 'Not read yet'"
+            (change)="onReadStatusChange(book, $event)"
           >
           <span class="book-title">{{ book.name }}</span>
+          <span class="status-badge" [class.read]="book.isRead">
+            {{ book.isRead ? 'Read' : 'Unread' }}
+          </span>
         </li>
       }
     </ul>

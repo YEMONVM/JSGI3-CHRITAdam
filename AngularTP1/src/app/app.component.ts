@@ -12,4 +12,9 @@ export class AppComponent {
     new Book('The Presentation of Self in Everyday Life', false),
     new Book('To Kill a Mockingbird', false)
   ];
+
+  onReadStatusChange(book: Book, event: Event): void {
+    const checkbox = event.target as HTMLInputElement;
+    book.isRead = checkbox.checked;
+  }
 }
